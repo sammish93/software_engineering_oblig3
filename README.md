@@ -7,7 +7,7 @@ The code for the automated testing is located in /.github/workflows/tests.yml. T
   - Sets up the JDK (17 in this case)
   - Gradle is then staged and set up
   - Gradle is built (gradlew has to be an executable file)
-  - Tests are run using Gradle
+  - Tests are run using Gradle (looks like "./gradlew build" runs the tests, but I included "./gradlew test" as well, just to see)
   - An email is sent out the specified email address informing [myself] about the outcome of the workflow
   
 This is an image of a passed outcome (commit #14):
