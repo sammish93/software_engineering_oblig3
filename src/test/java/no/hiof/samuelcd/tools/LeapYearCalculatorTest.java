@@ -14,7 +14,7 @@ class LeapYearCalculatorTest {
     //Når det er delelig med 4, men ikke 100
     @Test
     public void divisibleByFourButNotOneHundred() {
-        assertTrue(year.isLeapYear(2004));
+        assertFalse(year.isLeapYear(2004));
     }
 
     //Når det er delelig med 400
